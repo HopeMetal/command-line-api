@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "generatedAt": "2026-09-22T09:21:33.267Z",
+    "rangeLabel": "all",
+    "agents": [
+      "claude"
+    ],
+    "projectFilter": "all",
+    "totals": {
+      "sessions": 1,
+      "durationMs": 241644,
+      "turns": 33,
+      "files": 39,
+      "netLines": 142,
+      "toolCallsTotal": 66,
+      "toolSuccessRate": 98.5,
+      "totalCostUSD": 1.5233553,
+      "cacheReadCostUSD": 0.18675329999999998,
+      "pricedSessions": 1
+    },
+    "unpricedModels": [],
+    "coverage": [
+      {
+        "agentName": "claude",
+        "total": 1,
+        "priced": 1,
+        "withLog": 1
+      }
+    ],
+    "userEmail": "liudvikas_dapsys@epam.com",
+    "periodStart": "2026-09-22T07:44:51.730Z",
+    "periodEnd": "2026-09-22T07:48:53.374Z"
+  },
+  "sessions": [
+    {
+      "sessionId": "122eb4bf-1436-4336-97ac-b356cf81b5a2",
+      "agentName": "claude",
+      "provider": "ai-run-sso",
+      "title": "map this repository again, but follow the parallel explorer protocol in the repo-map skill's large-repos reference, with 3 explorers",
+      "project": "C:\\Users\\LiudvikasDapsys\\OneDrive - EPAM\\command-line-api",
+      "branch": "main",
+      "startTime": 1790063091730,
+      "durationMs": 241644,
+      "turns": 33,
+      "fileOps": 39,
+      "linesAdded": 142,
+      "linesRemoved": 0,
+      "linesModified": 0,
+      "netLines": 142,
+      "filesChanged": 1,
+      "filesWritten": 1,
+      "filesEdited": 0,
+      "toolCallsTotal": 66,
+      "toolCallsSuccess": 65,
+      "toolCallsFailure": 1,
+      "models": [
+        "claude-sonnet-4-6"
+      ],
+      "languages": [
+        "markdown"
+      ],
+      "tools": [
+        {
+          "toolName": "Read",
+          "totalCalls": 39,
+          "successCount": 39,
+          "failureCount": 0,
+          "successRate": 100
+        },
+        {
+          "toolName": "Bash",
+          "totalCalls": 12,
+          "successCount": 11,
+          "failureCount": 1,
+          "successRate": 91.66666666666666
+        },
+        {
+          "toolName": "Glob",
+          "totalCalls": 8,
+          "successCount": 8,
+          "failureCount": 0,
+          "successRate": 100
+        },
+        {
+          "toolName": "Agent",
+          "totalCalls": 3,
+          "successCount": 3,
+          "failureCount": 0,
+          "successRate": 100
+        },
+        {
+          "toolName": "Grep",
+          "totalCalls": 2,
+          "successCount": 2,
+          "failureCount": 0,
+          "successRate": 100
+        },
+        {
+          "toolName": "Skill",
+          "totalCalls": 1,
+          "successCount": 1,
+          "failureCount": 0,
+          "successRate": 100
+        },
+        {
+          "toolName": "Write",
+          "totalCalls": 1,
+          "successCount": 1,
+          "failureCount": 0,
+          "successRate": 100
+        }
+      ],
+      "tokens": {
+        "input": 1019,
+        "output": 18303,
+        "cacheRead": 622511,
+        "cacheCreation": 176500,
+        "cacheCreation1h": 176500,
+        "total": 818333
+      },
+      "costUSD": 1.5233553,
+      "cacheReadCostUSD": 0.18675329999999998,
+      "perModelCost": [
+        {
+          "model": "claude-sonnet-4-6",
+          "tokens": {
+            "input": 1019,
+            "output": 18303,
+            "cacheRead": 622511,
+            "cacheCreation": 176500,
+            "cacheCreation1h": 176500,
+            "total": 818333
+          },
+          "costUSD": 1.5233553,
+          "unpriced": false
+        }
+      ],
+      "hadLog": true,
+      "agentSessionFile": "C:\\Users\\LiudvikasDapsys\\.claude\\projects\\C--Users-LiudvikasDapsys-OneDrive---EPAM-command-line-api\\19878e84-fa07-4834-960a-437c69e0326e.jsonl",
+      "costSeries": [
+        {
+          "t": 1790063116101,
+          "cost": 0.142704,
+          "tokens": 23595
+        },
+        {
+          "t": 1790063124619,
+          "cost": 0.294057,
+          "tokens": 48372
+        },
+        {
+          "t": 1790063133403,
+          "cost": 0.45924600000000004,
+          "tokens": 75100
+        },
+        {
+          "t": 1790063149728,
+          "cost": 0.520788,
+          "tokens": 85000
+        },
+        {
+          "t": 1790063150945,
+          "cost": 0.5877222,
+          "tokens": 117140
+        },
+        {
+          "t": 1790063152155,
+          "cost": 0.6118869,
+          "tokens": 127092
+        },
+        {
+          "t": 1790063152911,
+          "cost": 0.6234063,
+          "tokens": 137664
+        },
+        {
+          "t": 1790063154031,
+          "cost": 0.6897947999999999,
+          "tokens": 170991
+        },
+        {
+          "t": 1790063155154,
+          "cost": 0.7176195,
+          "tokens": 181214
+        },
+        {
+          "t": 1790063156237,
+          "cost": 0.7330701,
+          "tokens": 193055
+        },
+        {
+          "t": 1790063156385,
+          "cost": 0.7475913,
+          "tokens": 203943
+        },
+        {
+          "t": 1790063159578,
+          "cost": 0.778833,
+          "tokens": 217734
+        },
+        {
+          "t": 1790063159673,
+          "cost": 0.7992009,
+          "tokens": 231603
+        },
+        {
+          "t": 1790063159900,
+          "cost": 0.8188644,
+          "tokens": 244146
+        },
+        {
+          "t": 1790063163119,
+          "cost": 0.8343684,
+          "tokens": 259220
+        },
+        {
+          "t": 1790063164678,
+          "cost": 0.8524581,
+          "tokens": 273218
+        },
+        {
+          "t": 1790063164891,
+          "cost": 0.8931131999999999,
+          "tokens": 292133
+        },
+        {
+          "t": 1790063165573,
+          "cost": 0.9095663999999999,
+          "tokens": 308951
+        },
+        {
+          "t": 1790063167893,
+          "cost": 1.0029924,
+          "tokens": 324059
+        },
+        {
+          "t": 1790063169299,
+          "cost": 1.0422015,
+          "tokens": 347725
+        },
+        {
+          "t": 1790063181170,
+          "cost": 1.0673397,
+          "tokens": 365995
+        },
+        {
+          "t": 1790063185800,
+          "cost": 1.0854735,
+          "tokens": 400562
+        },
+        {
+          "t": 1790063188872,
+          "cost": 1.1220546,
+          "tokens": 417861
+        },
+        {
+          "t": 1790063190490,
+          "cost": 1.1542203,
+          "tokens": 443887
+        },
+        {
+          "t": 1790063193016,
+          "cost": 1.2224976,
+          "tokens": 480079
+        },
+        {
+          "t": 1790063199949,
+          "cost": 1.2471222000000002,
+          "tokens": 518029
+        },
+        {
+          "t": 1790063202311,
+          "cost": 1.2831789000000002,
+          "tokens": 556570
+        },
+        {
+          "t": 1790063205679,
+          "cost": 1.3048683000000003,
+          "tokens": 596226
+        },
+        {
+          "t": 1790063209266,
+          "cost": 1.3255131000000002,
+          "tokens": 636889
+        },
+        {
+          "t": 1790063223482,
+          "cost": 1.3590540000000002,
+          "tokens": 679224
+        },
+        {
+          "t": 1790063225982,
+          "cost": 1.3785798000000002,
+          "tokens": 721755
+        },
+        {
+          "t": 1790063306840,
+          "cost": 1.4722746000000002,
+          "tokens": 769793
+        },
+        {
+          "t": 1790063333374,
+          "cost": 1.5233553000000002,
+          "tokens": 818333
+        }
+      ],
+      "dispatches": [
+        {
+          "kind": "skill",
+          "name": "repo-map",
+          "start": 1790063116101,
+          "durationMs": 3840,
+          "id": "toolu_bdrk_014G6548kqFKRve4RJC649XA",
+          "ownerAgentId": "122eb4bf-1436-4336-97ac-b356cf81b5a2",
+          "relationshipStatus": "root",
+          "acknowledgedAt": 1790063119941,
+          "completedAt": 1790063119941,
+          "elapsedMs": 3840,
+          "status": "completed",
+          "costUSD": 0.142704,
+          "attributionStatus": "estimated",
+          "attributionScope": "owner-window",
+          "tokens": {
+            "input": 3,
+            "output": 127,
+            "cacheRead": 0,
+            "cacheCreation": 23465,
+            "cacheCreation1h": 23465,
+            "total": 23595
+          }
+        },
+        {
+          "kind": "agent",
+          "name": "Explore",
+          "start": 1790063146742,
+          "durationMs": 9,
+          "id": "toolu_bdrk_01BYTugrUAKz3Ry5wBpbdf6q",
+          "ownerAgentId": "122eb4bf-1436-4336-97ac-b356cf81b5a2",
+          "agentId": "a6a92dc8776754cc5",
+          "depth": 1,
+          "relationshipStatus": "resolved",
+          "acknowledgedAt": 1790063146751,
+          "observedEnd": 1790063181170,
+          "completedAt": 1790063182628,
+          "elapsedMs": 35886,
+          "status": "completed",
+          "costUSD": 0.1659753,
+          "inclusiveCostUSD": 0.1659753,
+          "attributionStatus": "exact",
+          "attributionScope": "own",
+          "tokens": {
+            "input": 600,
+            "output": 2426,
+            "cacheRead": 75811,
+            "cacheCreation": 17507,
+            "cacheCreation1h": 17507,
+            "total": 96344
+          },
+          "inclusiveTokens": {
+            "input": 600,
+            "output": 2426,
+            "cacheRead": 75811,
+            "cacheCreation": 17507,
+            "cacheCreation1h": 17507,
+            "total": 96344
+          },
+          "tools": [
+            {
+              "name": "Read",
+              "calls": 9
+            },
+            {
+              "name": "Bash",
+              "calls": 2
+            },
+            {
+              "name": "Grep",
+              "calls": 2
+            },
+            {
+              "name": "Glob",
+              "calls": 1
+            }
+          ]
+        },
+        {
+          "kind": "agent",
+          "name": "Explore",
+          "start": 1790063149017,
+          "durationMs": 7,
+          "id": "toolu_bdrk_01AzXp2ymUQth7CqJJKGbMPV",
+          "ownerAgentId": "122eb4bf-1436-4336-97ac-b356cf81b5a2",
+          "agentId": "a1e6063c07ef73d00",
+          "depth": 1,
+          "relationshipStatus": "resolved",
+          "acknowledgedAt": 1790063149024,
+          "observedEnd": 1790063188872,
+          "completedAt": 1790063190061,
+          "elapsedMs": 41044,
+          "status": "completed",
+          "costUSD": 0.20644620000000002,
+          "inclusiveCostUSD": 0.20644620000000002,
+          "attributionStatus": "exact",
+          "attributionScope": "own",
+          "tokens": {
+            "input": 8,
+            "output": 3008,
+            "cacheRead": 52514,
+            "cacheCreation": 24258,
+            "cacheCreation1h": 24258,
+            "total": 79788
+          },
+          "inclusiveTokens": {
+            "input": 8,
+            "output": 3008,
+            "cacheRead": 52514,
+            "cacheCreation": 24258,
+            "cacheCreation1h": 24258,
+            "total": 79788
+          },
+          "tools": [
+            {
+              "name": "Read",
+              "calls": 10
+            },
+            {
+              "name": "Bash",
+              "calls": 5
+            }
+          ]
+        },
+        {
+          "kind": "agent",
+          "name": "Explore",
+          "start": 1790063150945,
+          "durationMs": 6,
+          "id": "toolu_bdrk_0132iabqfSY39w3uDSJgb9oD",
+          "ownerAgentId": "122eb4bf-1436-4336-97ac-b356cf81b5a2",
+          "agentId": "ab5f0f5494baf1666",
+          "depth": 1,
+          "relationshipStatus": "resolved",
+          "acknowledgedAt": 1790063150951,
+          "observedEnd": 1790063190490,
+          "completedAt": 1790063191770,
+          "elapsedMs": 40825,
+          "status": "completed",
+          "costUSD": 0.17109629999999998,
+          "inclusiveCostUSD": 0.17109629999999998,
+          "attributionStatus": "exact",
+          "attributionScope": "own",
+          "tokens": {
+            "input": 7,
+            "output": 2632,
+            "cacheRead": 71631,
+            "cacheCreation": 18351,
+            "cacheCreation1h": 18351,
+            "total": 92621
+          },
+          "inclusiveTokens": {
+            "input": 7,
+            "output": 2632,
+            "cacheRead": 71631,
+            "cacheCreation": 18351,
+            "cacheCreation1h": 18351,
+            "total": 92621
+          },
+          "tools": [
+            {
+              "name": "Read",
+              "calls": 12
+            },
+            {
+              "name": "Glob",
+              "calls": 5
+            }
+          ]
+        }
+      ],
+      "costSource": "native-estimate",
+      "costBasis": "standard-api-tokens",
+      "dispatchesComplete": true,
+      "rootOwnCostUSD": 0.9798375,
+      "unlinkedCostUSD": 0,
+      "unlinkedAgentIds": [],
+      "rootOwnTokens": {
+        "input": 404,
+        "output": 10237,
+        "cacheRead": 422555,
+        "cacheCreation": 116384,
+        "cacheCreation1h": 116384,
+        "total": 549580
+      },
+      "unlinkedTokens": {
+        "input": 0,
+        "output": 0,
+        "cacheRead": 0,
+        "cacheCreation": 0,
+        "cacheCreation1h": 0,
+        "total": 0
+      },
+      "skillInvocations": [
+        {
+          "name": "repo-map",
+          "totalCalls": 1,
+          "successCount": 1,
+          "failureCount": 0
+        }
+      ],
+      "agentInvocations": [
+        {
+          "name": "Explore",
+          "totalCalls": 3,
+          "successCount": 3,
+          "failureCount": 0
+        }
+      ],
+      "commandInvocations": [],
+      "sessionSource": "Pure chat"
+    }
+  ]
+}
