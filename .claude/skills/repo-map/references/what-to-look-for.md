@@ -4,7 +4,7 @@ Signals that reveal structure, in priority order. Read these first; skip bulk so
 
 ## 1. Manifests and lockfiles
 
-`package.json`, `pyproject.toml`, `go.mod`, `*.sln`/`*.csproj`, `pom.xml`, `build.gradle`, `Cargo.toml`, `Gemfile`. They give you the project's name, its dependencies (what kind of system this is), and its scripts — the executable truth about how it builds and tests.
+`package.json`, `pyproject.toml`, `go.mod`, `*.sln`/`*.slnx`/`*.csproj`, `pom.xml`, `build.gradle`, `Cargo.toml`, `Gemfile`. They give you the project's name, its dependencies (what kind of system this is), and its scripts — the executable truth about how it builds and tests.
 
 ## 2. Entry points
 
@@ -37,7 +37,7 @@ Where tests live, their naming pattern, shared fixtures/helpers, and which confi
 |-----------|--------------|-------|-----------------------|
 | JS/TS | `package.json` `main`/`bin`, `src/index.*`, framework dirs (`app/`, `pages/`) | `*.test.*`, `*.spec.*`, `__tests__/` | `package.json` scripts |
 | Python | `__main__.py`, `manage.py`, `[project.scripts]` in pyproject, `app.py` | `tests/test_*.py`, `conftest.py` | pyproject / `tox.ini` / Makefile |
-| .NET | `Program.cs`, the `.sln` project graph | `*Tests` projects | `.sln` + CI yaml |
+| .NET | `Program.cs`, the `.sln` or `.slnx` project graph | `*Tests` projects | (`.sln`, `.slnx`) + CI yaml |
 | JVM | classes with `main()`, `application.yml` | `src/test/java` | `pom.xml` / `build.gradle` |
 | Go | `cmd/<name>/main.go` | `*_test.go` beside the code | Makefile / CI yaml |
 | Rust | `src/main.rs`, `src/lib.rs`, `[[bin]]` entries | `#[cfg(test)]` + `tests/` | `Cargo.toml` |
