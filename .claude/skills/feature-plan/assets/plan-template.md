@@ -34,6 +34,10 @@
 
 - <Questions still owed an answer by a human.>
 
+## Rollback strategy
+
+<How will we undo these changes if needed?>
+
 ## Deviation log
 
 <!-- Written during implementation, never during planning. One entry per divergence:

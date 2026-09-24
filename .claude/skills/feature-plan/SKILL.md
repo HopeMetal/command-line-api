@@ -23,7 +23,7 @@ Turn a feature request into a plan grounded in **this** repository: real file pa
 
 4. **Investigate.** For **independent** unknowns, spawn one investigation subagent per question, in parallel, following [references/investigation-subagents.md](references/investigation-subagents.md). For unknowns that depend on each other's answers, investigate sequentially yourself. Fewer than three unknowns: skip subagents and just look.
 
-5. **Draft the plan** using the exact structure of [assets/plan-template.md](assets/plan-template.md). Every step names real files (paths you or an investigator verified exist) and a **verify-by**: the command or observable that proves the step worked. Leave the **Deviation log** section empty — it belongs to implementation, not planning.
+5. **Draft the plan** using the exact structure of [assets/plan-template.md](assets/plan-template.md). Every step names real files (paths you or an investigator verified exist) and a **verify-by**: the command or observable that proves the step worked. Form a rollback strategy and include it in the plan. Leave the **Deviation log** section empty — it belongs to implementation, not planning.
 
 6. **Self-check** against [references/plan-quality-checklist.md](references/plan-quality-checklist.md). Fix every failure before showing the plan to anyone.
 
